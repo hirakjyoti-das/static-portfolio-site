@@ -5,32 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Hirakjyoti Das - Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            transition: all 0.3s ease-in-out;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #2c3e50;
+            border-left: 5px solid #2980b9;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        section:hover {
+            transform: scale(1.01);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+    </style>
 </head>
 <body>
-
     <header>
-        <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic"/>
-        <h1>Hirakjyoti Das</h1>
-        <p>Aspiring Cloud & DevOps Engineer | Python | AWS | Docker</p>
+        <img src="image/profile.jpg" alt="Profile Picture" class="profile-pic"/>
+        <h1 style="font-size: 2.5rem;">Hirakjyoti Das</h1>
+        <p style="font-size: 1.2rem;">Aspiring Cloud & DevOps Engineer | Python | AWS | Docker</p>
     </header>
-
     <main>
-
         <section class="contact">
-            <h2>Contact</h2>
+            <h2 class="section-title">Contact</h2>
             <p>📞 7838632926</p>
             <p>📧 <a href="mailto:hirakdas058@gmail.com">hirakdas058@gmail.com</a></p>
             <p>🌐 <a href="https://www.linkedin.com/in/hirakjyoti-das" target="_blank">LinkedIn Profile</a></p>
             <p>📍 Ghaziabad, Uttar Pradesh</p>
         </section>
-
         <section class="summary">
-            <h2>Professional Summary</h2>
+            <h2 class="section-title">Professional Summary</h2>
             <p>Motivated and tech-driven MCA student with strong foundational skills in cloud computing, DevOps tools, and programming. Passionate about applying technology to solve real-world problems and enhance business efficiency. Quick learner with hands-on experience in AWS, Docker, and Python. Eager to contribute to dynamic teams through internships that promote continuous learning and innovation.</p>
         </section>
-
         <section class="skills">
-            <h2>Skills</h2>
+            <h2 class="section-title">Skills</h2>
             <div class="skills-grid">
                 <div>AWS (EC2, S3, IAM, Billing)</div>
                 <div>Docker</div>
@@ -44,9 +57,8 @@
                 <div>Team collaboration</div>
             </div>
         </section>
-
         <section class="projects">
-            <h2>Projects</h2>
+            <h2 class="section-title">Projects</h2>
             <ul>
                 <li>
                     <strong>ToDo Flask App:</strong> 
@@ -54,14 +66,12 @@
                 </li>
                 <li>
                     <strong>Restaurant Billing Management System:</strong> 
-                    <em>Python, File I/O</em>  
-                    - Designed and developed billing software to generate customer bills with automated Notepad output.
+                    <em>Python, File I/O</em> — Designed and developed billing software to generate customer bills with automated Notepad output.
                 </li>
             </ul>
         </section>
-
         <section class="certifications">
-            <h2>Certifications</h2>
+            <h2 class="section-title">Certifications</h2>
             <ul>
                 <li>Introduction to Cybersecurity - Cisco (2025)</li>
                 <li>Python 101 for Data Science – IBM (2024)</li>
@@ -70,12 +80,9 @@
                 <li>AWS Billing and Cost Management – AWS (2024)</li>
             </ul>
         </section>
-
     </main>
-
     <footer>
         <p>&copy; 2025 Hirakjyoti Das. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
